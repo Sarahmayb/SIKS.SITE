@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIKS - Sneakers Boutique</title>
+    <style>
+        /* General body styles */
+        body {
+            font-family: 'Georgia', serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background: #fefefe;
+        }
+
+        /* Header styles */
+        header {
+            background: #003366; /* Parisian blue */
+            color: white;
+            text-align: center;
+            padding: 2rem;
+            border-bottom: 4px solid #ff3344; /* Parisian red */
+        }
+        header h1 {
+            font-size: 3rem;
+            font-weight: bold;
+            letter-spacing: 2px;
+            margin-bottom: 0.5rem;
+        }
+        header p {
+            font-size: 1.2rem;
+            color: #f0f0f0;
+            margin-bottom: 0.5rem;
+        }
+        header .slogan {
+            font-size: 1.5rem;
+            font-style: italic;
+            font-weight: 600;
+            color: #ffcc00; /* Gold for emphasis */
+        }
+
+        /* Navigation styles */
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #fefefe;
+            border-bottom: 2px solid #ddd;
+        }
+        nav a {
+            color: #003366; /* Parisian blue */
+            padding: 1rem 2rem;
+            text-decoration: none;
+            font-size: 1rem;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: #ff3344; /* Parisian red */
+        }
+
+        /* Main section styles */
+        section {
+            padding: 2rem;
+            text-align: center;
+        }
+        section h2 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            color: #003366; /* Parisian blue */
+        }
+        .categories {
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+            margin-top: 2rem;
+        }
+        .category {
+            width: 200px;
+            margin: 1rem;
+            padding: 1rem;
+            border: 1px solid #ddd;
+            background: #fefefe;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            border-radius: 8px;
+            font-size: 1.1rem;
+            font-weight: bold;
+            transition: transform 0.3s ease, background 0.3s ease, color 0.3s ease;
+        }
+        .category:hover {
+            transform: scale(1.1);
+            background: #003366; /* Parisian blue */
+            color: white;
+        }
+
+        /* Footer styles */
+        footer {
+            background: #003366; /* Parisian blue */
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            border-top: 4px solid #ff3344; /* Parisian red */
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>SIKS</h1>
+        <p>Sneakers Boutique in Paris - Delivery Available Worldwide</p>
+        <p class="slogan">Sneakers is Knowledges</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#shop">Shop</a>
+        <a href="#about">About</a>
+        <a href="#delivery">Delivery</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- Main Section -->
+    <section id="shop">
+        <h2>Our Collections</h2>
+        <div class="categories">
+            <div class="category">👟 Sportwear</div>
+            <div class="category">💎 Luxury</div>
+            <div class="category">🏃‍♂️ Running</div>
+            <div class="category">🧥 Casual</div>
+            <div class="category">🇫🇷 Made in France</div>
+            <div class="category">✨ Exclusivity</div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 SIKS - Sneakers Boutique in Paris. All rights reserved.</p>
+    </footer>
+</body>
+</html>
